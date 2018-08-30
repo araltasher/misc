@@ -2,7 +2,9 @@ User Settings:
 
 ```
 {
+    "editor.fontFamily": "Hack, Menlo, monospace",
     "editor.fontSize": 11,
+    "editor.letterSpacing": 0.3,
     "editor.lineHeight": 16.2,
     "window.zoomLevel": -0.3,
     "vsicons.dontShowNewVersionMessage": true,
@@ -13,9 +15,10 @@ User Settings:
     "extensions.ignoreRecommendations": true,
     "explorer.confirmDelete": false,
     "workbench.startupEditor": "newUntitledFile",
-    "latex-workshop.view.pdf.viewer": "tab",
-    "workbench.colorTheme": "An Old Hope",
-    "vsicons.projectDetection.autoReload": true
+    "workbench.colorTheme": "Level Up",
+    "vsicons.projectDetection.autoReload": true,
+    "git.autofetch": true,
+    "terminal.integrated.fontFamily": "Hack",
 }
 ```
 
@@ -63,7 +66,6 @@ Key Bindings:
 Extensions:
 
 ```
-code --install-extension Rubymaniac.vscode-paste-and-indent
 code --install-extension christian-kohler.path-intellisense
 code --install-extension dbaeumer.jshint
 code --install-extension dbaeumer.vscode-eslint
@@ -75,10 +77,12 @@ code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension HookyQR.beautify
 code --install-extension JuanBlanco.solidity
+code --install-extension leveluptutorials.theme-levelup
 code --install-extension mohsen1.prettify-json
 code --install-extension mrmlnc.vscode-scss
 code --install-extension naumovs.theme-oceanicnext
 code --install-extension robertohuertasm.vscode-icons
 code --install-extension robinbentley.sass-indented
+code --install-extension Rubymaniac.vscode-paste-and-indent
 code --install-extension xabikos.ReactSnippets
 ```

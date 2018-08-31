@@ -75,7 +75,6 @@ code --install-extension eg2.vscode-npm-script
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
-code --install-extension HookyQR.beautify
 code --install-extension JuanBlanco.solidity
 code --install-extension leveluptutorials.theme-levelup
 code --install-extension mohsen1.prettify-json

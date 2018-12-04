@@ -2,24 +2,45 @@ User Settings:
 
 ```
 {
-    "editor.fontFamily": "Hack, Menlo, monospace",
-    "editor.fontSize": 11,
-    "editor.letterSpacing": 0.3,
-    "editor.lineHeight": 16.2,
-    "window.zoomLevel": -0.3,
-    "vsicons.dontShowNewVersionMessage": true,
-    "workbench.iconTheme": "vscode-icons",
-    "git.confirmSync": false,
-    "terminal.integrated.fontSize": 11,
-    "explorer.openEditors.visible": 0,
-    "extensions.ignoreRecommendations": true,
-    "explorer.confirmDelete": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Level Up",
-    "vsicons.projectDetection.autoReload": true,
-    "git.autofetch": true,
-    "terminal.integrated.fontFamily": "Hack",
+  "editor.letterSpacing": 0.3,
+  "editor.lineHeight": 16.2,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.iconTheme": "vscode-icons",
+  "git.confirmSync": false,
+  "terminal.integrated.fontSize": 11,
+  "explorer.openEditors.visible": 0,
+  "extensions.ignoreRecommendations": true,
+  "explorer.confirmDelete": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "vsicons.projectDetection.autoReload": true,
+  "git.autofetch": true,
+  "terminal.integrated.fontFamily": "Hack",
+  "workbench.colorTheme": "Level Up",
+  "editor.fontFamily": "Hack-Bold, Menlo",
+  "editor.fontSize": 11,
+  "window.zoomLevel": -0.3,
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnSave": true,
+  // turn it off for JS
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+  // "eslint.options": { "configFile": "/Users/novel/.eslintrc.json" }
 }
+
 ```
 
 
@@ -84,4 +105,38 @@ code --install-extension robertohuertasm.vscode-icons
 code --install-extension robinbentley.sass-indented
 code --install-extension Rubymaniac.vscode-paste-and-indent
 code --install-extension xabikos.ReactSnippets
+```
+```
+
+
+
+-----------------	*************	-----------------
+
+
+
+
+Snippets
+
+**css.json**
+
+```
+{
+  "ThemeProps": {
+    "prefix": ":tp",
+    "body": ["${props => props.theme.$1};", "$2"],
+    "description": "Use React styled-component"
+  }
+}
+```
+
+**javacsript.json**
+
+```
+{
+  "Print to console": {
+    "prefix": "clog",
+    "body": ["console.log('$1');", "$2"],
+    "description": "Log output to console"
+  }
+}
 ```

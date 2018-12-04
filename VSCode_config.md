@@ -96,16 +96,15 @@ code --install-extension eg2.vscode-npm-script
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
-code --install-extension JuanBlanco.solidity
+code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension leveluptutorials.theme-levelup
-code --install-extension mohsen1.prettify-json
 code --install-extension mrmlnc.vscode-scss
 code --install-extension naumovs.theme-oceanicnext
+code --install-extension daylerees.rainglow
 code --install-extension robertohuertasm.vscode-icons
 code --install-extension robinbentley.sass-indented
 code --install-extension Rubymaniac.vscode-paste-and-indent
 code --install-extension xabikos.ReactSnippets
-```
 ```
 
 

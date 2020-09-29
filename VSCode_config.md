@@ -2,13 +2,11 @@ User Settings:
 
 ```
 {
-  // Theme Setup.
-  "workbench.colorTheme": "Noctis Uva",
   "workbench.iconTheme": "vscode-icons",
-  "terminal.integrated.fontFamily": "Hack",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
   "editor.fontSize": 12,
-  "editor.fontFamily": "Hack",
-  "editor.lineHeight": 19,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.lineHeight": 20,
   "editor.letterSpacing": 0.5,
   "editor.fontWeight": "bold",
   "editor.fontLigatures": true,
@@ -18,7 +16,7 @@ User Settings:
   "editor.renderWhitespace": "all",
   "editor.snippetSuggestions": "top",
   "editor.formatOnSave": true,
-  "workbench.startupEditor": "newUntitledFile",
+  "workbench.startupEditor": "none",
   "editor.glyphMargin": true,
   "workbench.editor.enablePreview": false,
   "explorer.confirmDragAndDrop": false,
@@ -83,7 +81,21 @@ User Settings:
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "window.zoomLevel": -0.3
+  "workbench.colorTheme": "morgan.codes",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 0,
+  "editor.find.addExtraSpaceOnTop": false
 }
 ```
 
@@ -158,6 +170,7 @@ code --install-extension dcortes92.FreeMarker
 code --install-extension donjayamanne.githistory
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension dunstontc.viml
+code --install-extension dvlpr.dvlpr-theme
 code --install-extension eamodio.gitlens
 code --install-extension eg2.vscode-npm-script
 code --install-extension esbenp.prettier-vscode
@@ -174,8 +187,10 @@ code --install-extension leveluptutorials.theme-levelup
 code --install-extension liviuschera.noctis
 code --install-extension michelemelluso.code-beautifier
 code --install-extension mohsen1.prettify-json
+code --install-extension morgan-codes.morgan-codes-vscode-theme
 code --install-extension mrmlnc.vscode-scss
 code --install-extension qinjia.view-in-browser
+code --install-extension RobbOwen.synthwave-vscode
 code --install-extension Rubymaniac.vscode-paste-and-indent
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension vscode-icons-team.vscode-icons

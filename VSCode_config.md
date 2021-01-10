@@ -48,7 +48,6 @@ User Settings:
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "eslint.autoFixOnSave": true,
   "prettier.disableLanguages": [
     "js",
     "javascriptreact"
@@ -94,8 +93,8 @@ User Settings:
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 0,
-  "editor.find.addExtraSpaceOnTop": false
+  "editor.find.addExtraSpaceOnTop": false,
+  "window.zoomLevel": 0
 }
 ```
 
